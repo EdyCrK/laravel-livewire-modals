@@ -24,7 +24,7 @@ This package allows you to dynamically show your Laravel Livewire components ins
 Require the package:
 
 ```console
-composer require marcincook/laravel-livewire-modals
+composer require edycrk/laravel-livewire-modals
 ```
 
 Add the `livewire:modals` component to your app layout view:
@@ -35,12 +35,12 @@ Add the `livewire:modals` component to your app layout view:
 <script src="{{ asset('js/app.js') }}"></script>
 ```
 
-Require `../../vendor/marcincook/laravel-livewire-modals/resources/js/modals` in your app javascript file:
+Require `../../vendor/edycrk/laravel-livewire-modals/resources/js/modals` in your app javascript file:
 
 ```javascript
 require('@popperjs/core');
 require('bootstrap');
-require('../../vendor/marcincook/laravel-livewire-modals/resources/js/modals');
+require('../../vendor/edycrk/laravel-livewire-modals/resources/js/modals');
 ```
 
 ## Usage
